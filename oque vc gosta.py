@@ -1,0 +1,7 @@
+print('== Cadastro ==')
+nome = input(Digite o nome: ')
+print('Bem vindo(a)'+Fernando)
+nataçao = input(qual o seu estilo de nado favorito: ')
+print(natação)
+Prova da nataçao fa vorita = input('qual sua prova da nataçao favorita:')
+print('A sua prova favorita é +prova da nataçao favorita')
