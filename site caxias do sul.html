@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Turismo em Caxias do Sul</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #8B0000;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #660000;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    nav a:hover {
+      background-color: #8B0000;
+    }
+
+    section {
+      padding: 40px 5%;
+      background-color: white;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      color: #8B0000;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 30px;
+    }
+
+    @media (min-width: 700px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Turismo em Caxias do Sul</h1>
+  <p>Explore a cultura, história e sabores da Serra Gaúcha</p>
+</header>
+
+<nav>
+  <a href="#historia">História</a>
+  <a href="#turismo">Pontos Turísticos</a>
+  <a href="#gastronomia">Gastronomia</a>
+  <a href="#eventos">Eventos</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<!-- HISTÓRIA -->
+<section id="historia">
+  <h2>História de Caxias do Sul</h2>
+  <p>
+    Caxias do Sul foi fundada por imigrantes italianos em 1875 e oficialmente reconhecida como cidade em 1890. Situada na Serra Gaúcha, a cidade cresceu com base no trabalho agrícola, especialmente com a vitivinicultura. Com o passar dos anos, tornou-se um dos maiores polos industriais do Rio Grande do Sul e também um importante destino turístico, preservando suas tradições e cultura italiana.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Centro_Caxias_do_Sul.jpg" alt="Centro de Caxias do Sul">
+</section>
+
+<!-- PONTOS TURÍSTICOS -->
+<section id="turismo">
+  <h2>Pontos Turísticos</h2>
+  <div class="grid">
+    <div>
+      <h3>Igreja de São Pelegrino</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Igreja_S%C3%A3o_Pelegrino.jpg" alt="Igreja São Pelegrino">
+      <p>Com afrescos de Aldo Locatelli, é uma das igrejas mais belas do Brasil.</p>
+    </div>
+    <div>
+      <h3>Catedral Santa Teresa</h3>
+      <img src="https://www.guiadoturismobrasil.com/up/img/1438_catedral%20santa%20teresa%20-%20caxias%20do%20sul%20rs.jpg" alt="Catedral Santa Teresa">
+      <p>Localizada no centro da cidade, é um símbolo da religiosidade e da arquitetura local.</p>
+    </div>
+    <div>
+      <h3>Château Lacave</h3>
+      <img src="https://www.serragaucha.com/novo/images/cidades/caxias-do-sul/vinicola-lacave.jpg" alt="Château Lacave">
+      <p>Vinícola em formato de castelo medieval com degustações e visitas guiadas.</p>
+    </div>
+    <div>
+      <h3>Casa de Pedra</h3>
+      <img src="https://www.serragaucha.com/novo/images/cidades/caxias-do-sul/casa-de-pedra.jpg" alt="Casa de Pedra">
+      <p>Casa construída por imigrantes italianos no século XIX, hoje é um museu histórico.</p>
+    </div>
+    <div>
+      <h3>Parque Cinquentenário</h3>
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/f1/9e/b8/parque-cinquentenario.jpg" alt="Parque Cinquentenário">
+      <p>Ótimo lugar para caminhadas, lazer ao ar livre e eventos culturais.</p>
+    </div>
+    <div>
+      <h3>Festa da Uva</h3>
+      <img src="https://s2.glbimg.com/GphF41_6T-Md1K7lTLwMdZfcs-I=/smart/e.glbimg.com/og/ed/f/original/2019/02/23/festa-da-uva-caxias.jpg" alt="Festa da Uva">
+      <p>Evento bienal que celebra a cultura italiana, com desfiles, uvas, vinhos e muita alegria.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GASTRONOMIA -->
+<section id="gastronomia">
+  <h2>Gastronomia e Vinhos</h2>
+  <p>
+    A culinária caxiense é marcada pela influência italiana. Os pratos mais tradicionais são o galeto al primo canto, polenta, massas artesanais e queijos coloniais. As vinícolas da região, como a Tonet e a Don Giovanni, oferecem experiências de degustação e passeios inesquecíveis.
+  </p>
+  <img src="https://www.serragaucha.com/novo/images/cidades/caxias-do-sul/vinhos-caxias.jpg" alt="Gastronomia e Vinhos">
+</section>
+
+<!-- EVENTOS -->
+<section id="eventos">
+  <h2>Eventos Culturais</h2>
+  <ul>
+    <li><strong>Festa Nacional da Uva</strong> – fevereiro/março (anos pares)</li>
+    <li><strong>Festival de Inverno</strong> – julho</li>
+    <li><strong>Semana Italiana</strong> – celebrações religiosas e culturais</li>
+    <li><strong>Vindima</strong> – colheita da uva entre janeiro e março</li>
+  </ul>
+  <img src="https://media-cdn.tripadvisor.com/media/photo-s/1d/89/c3/15/festa-da-uva.jpg" alt="Desfile Festa da Uva">
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+  <h2>Informações e Contato</h2>
+  <p>
+    Centro de Atendimento ao Turista de Caxias do Sul<br>
+    Endereço: Av. Júlio de Castilhos, 1339 – Centro<br>
+    Telefone: (54) 3222-1875<br>
+    E-mail: <a href="mailto:turismo@caxias.rs.gov.br">turismo@caxias.rs.gov.br</a>
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Prefeitura_de_Caxias_do_Sul_RS.jpg" alt="Prefeitura de Caxias do Sul">
+</section>
+
+<footer>
+  <p>&copy; 2025 Turismo em Caxias do Sul – Todos os direitos reservados.</p>
+</footer>
+
+<!-- VLibras - Acessibilidade em Libras -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+</body>
+</html>
