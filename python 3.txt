@@ -1,0 +1,17 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+ano = 2025
+ano_nasc = int(input("Digite o ano do seu nascimento: "))
+idade = ano - ano_nasc
+print("Idade em ",ano," é ", idade)
+if idade >= 16:
+    print("Pode votar!")
+else:
+    print("Não pode votar!")
+ 
+nota1 = float(input("Digite a nota da prova: "))
+nota2 = float(input("Digite a nota do trabalho: "))
+media = (nota1 + nota2)/2
+print("Média ",media)
+ 
+ 
